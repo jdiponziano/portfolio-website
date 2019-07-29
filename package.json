@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdiponziano/portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdiponziano/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/jdiponziano/portfolio-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
