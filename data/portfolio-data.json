@@ -1,7 +1,7 @@
 {
-  "projects": {
+  "data": {
     "title": "Portfolio Projects",
-    "cards": [
+    "projects": [
       {
         "id": 1,
         "project_name": "Random Quote Generator",
