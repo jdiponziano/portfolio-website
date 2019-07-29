@@ -46,4 +46,10 @@ app.get('/project/:id', (req, res) => {
   res.render('project', templateData);
 });
 
+app.use((req, res, next) => {
+  const err = new Error('Sorry! This page does not exist!');
+  err.status = 404;
+  next(err);
+})
+
 app.listen(port, () => console.log(`Portfolio site listening on port ${port}!`));
