@@ -3,7 +3,7 @@
     "title": "Portfolio Projects",
     "projects": [
       {
-        "id": 1,
+        "id": 0,
         "project_name": "Random Quote Generator",
         "description": "A program that displays randomly selected quotes.",
         "technologies": [
@@ -14,7 +14,7 @@
         "image_urls": []
       },
       {
-        "id": 2,
+        "id": 1,
         "project_name": "List Pagination and Filtering",
         "description": "A program taking a list of people and creates pages with 10 people per a page and allow the user to filter by begining to type in the search box.",
         "technologies": [
@@ -25,7 +25,7 @@
         "image_urls": []
       },
       {
-        "id": 3,
+        "id": 2,
         "project_name": "Phrase Hunter",
         "description": "A game built with Object-oriented JavaScript similar to the rules of Hangman.",
         "technologies": [
@@ -36,7 +36,7 @@
         "image_urls": []
       },
       {
-        "id": 4,
+        "id": 3,
         "project_name": "Flashcard App",
         "description": "A flashcard web app that displays random questions for studying.",
         "technologies": [
