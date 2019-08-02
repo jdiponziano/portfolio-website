@@ -1,2 +1,4 @@
 # portfolio-website
-A static Node.js and Express Site
+A static Node.js and Express Portfolio site.
+
+Live link: https://express-portfolio-jdweb.herokuapp.com/
