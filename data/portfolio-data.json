@@ -11,6 +11,7 @@
         ],
         "live_link": "https://jdiponziano.github.io/random-quote-generator/",
         "github_link": "https://github.com/jdiponziano/random-quote-generator",
+        "cover_url": "",
         "image_urls": []
       },
       {
@@ -22,6 +23,7 @@
         ],
         "live_link": "https://jdiponziano.github.io/list-pagination-filtering/",
         "github_link": "https://github.com/jdiponziano/list-pagination-filtering",
+        "cover_url": "/static/img/project-2-cover.png",
         "image_urls": []
       },
       {
@@ -33,6 +35,7 @@
         ],
         "live_link": "https://jdiponziano.github.io/phrase-hunter-game/",
         "github_link": "https://github.com/jdiponziano/phrase-hunter-game",
+        "cover_url": "/static/img/phrase-cover.png",
         "image_urls": []
       },
       {
@@ -46,6 +49,7 @@
         ],
         "live_link": "https://flashcards-webapp.herokuapp.com/",
         "github_link": "https://github.com/jdiponziano/flashcards-app",
+        "cover_url": "/static/img/phrase-cover.png",
         "image_urls": [
           "https://placehold.it/1200x550",
           "https://placehold.it/1200x550",
