@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div
+    
+      h1 Jessica's Portfolio
+      p.lead.text-light
+        | This portfolio site was built with Express.js showing a collection of my JavaScript projects. The data is pulled in using a flat JSON file and the templates are built using the pug template engine.
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+
+      each val in projects
+        .cell
+          a(href=`/project/${val.id}`)
+            img.thumbnail(src=`${val.cover_url}`)
+            h5 #{val.project_name}
+      
