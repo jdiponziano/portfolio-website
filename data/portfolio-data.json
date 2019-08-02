@@ -11,8 +11,11 @@
         ],
         "live_link": "https://jdiponziano.github.io/random-quote-generator/",
         "github_link": "https://github.com/jdiponziano/random-quote-generator",
-        "cover_url": "",
-        "image_urls": []
+        "cover_url": "/static/img/quote-cover.png",
+        "image_urls": [
+          "/static/img/quote-1.png",
+          "/static/img/quote-2.png"
+        ]
       },
       {
         "id": 1,
@@ -24,7 +27,10 @@
         "live_link": "https://jdiponziano.github.io/list-pagination-filtering/",
         "github_link": "https://github.com/jdiponziano/list-pagination-filtering",
         "cover_url": "/static/img/project-2-cover.png",
-        "image_urls": []
+        "image_urls": [
+          "/static/img/project-2-1.png",
+          "/static/img/project-2-2.png"
+        ]
       },
       {
         "id": 2,
@@ -36,7 +42,12 @@
         "live_link": "https://jdiponziano.github.io/phrase-hunter-game/",
         "github_link": "https://github.com/jdiponziano/phrase-hunter-game",
         "cover_url": "/static/img/phrase-cover.png",
-        "image_urls": []
+        "image_urls": [
+          "/static/img/phrase-1.png",
+          "/static/img/phrase-0.png",
+          "/static/img/phrase-2.png",
+          "/static/img/phrase-3.png"
+        ]
       },
       {
         "id": 3,
@@ -49,11 +60,11 @@
         ],
         "live_link": "https://flashcards-webapp.herokuapp.com/",
         "github_link": "https://github.com/jdiponziano/flashcards-app",
-        "cover_url": "/static/img/phrase-cover.png",
+        "cover_url": "/static/img/flash-cover.png",
         "image_urls": [
-          "https://placehold.it/1200x550",
-          "https://placehold.it/1200x550",
-          "https://placehold.it/1200x550"
+          "/static/img/flash-1.png",
+          "/static/img/flash-2.png",
+          "/static/img/flash-3.png"
         ]
       }
     ]
