@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
 const port = process.env.PORT || 3000;
 
 const { data } = require('./data/portfolio-data.json');
 const { projects } = data;
 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
@@ -51,5 +53,11 @@ app.use((req, res, next) => {
   err.status = 404;
   next(err);
 })
+
+app.use((err, req, res) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error', { error: err });
+});
 
 app.listen(port, () => console.log(`Portfolio site listening on port ${port}!`));
