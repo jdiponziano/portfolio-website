@@ -6,9 +6,10 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell
-        h1= `${error.message} - Status: ${error.status}`
+        h1= `${error.message}`
+        h2= `Status: ${error.status}`
         p
           pre.stack-trace= error.stack
   nav.grid-container.portfolio-breadcrumb
-    a(href='/') ← Back
+    a(href='/') ← Back to homepage
   
