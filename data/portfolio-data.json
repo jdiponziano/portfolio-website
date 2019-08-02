@@ -46,7 +46,11 @@
         ],
         "live_link": "https://flashcards-webapp.herokuapp.com/",
         "github_link": "https://github.com/jdiponziano/flashcards-app",
-        "image_urls": []
+        "image_urls": [
+          "https://placehold.it/1200x550",
+          "https://placehold.it/1200x550",
+          "https://placehold.it/1200x550"
+        ]
       }
     ]
   }
