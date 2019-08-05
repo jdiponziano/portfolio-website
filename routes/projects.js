@@ -10,6 +10,13 @@ router.get('/projects?', (req, res) => {
 
 router.get('/project/:id', (req, res) => {
   const { id } = req.params;
+
+  if (id >= projects.length) {
+    const err = new Error('Sorry! This project does not exist!');
+    err.status = 404;
+    return res.render('error', { error: err });
+  }
+
   const { project_name } = projects[id];
   const { description } = projects[id];
   const { technologies } = projects[id];
