@@ -3,11 +3,14 @@ const router = express.Router();
 const { data } = require('../data/portfolio-data.json');
 const { projects } = data;
 
+//Redirect /project & /projects to project/0
 router.get('/projects?', (req, res) => {
   const firstProject = projects[0].id;
   res.redirect(`/project/${firstProject}`);
 });
 
+
+//Render project template based on ID
 router.get('/project/:id', (req, res) => {
   const { id } = req.params;
 

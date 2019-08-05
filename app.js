@@ -10,9 +10,11 @@ app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
+//App routes
 app.use(mainRoutes);
 app.use(projectRoutes);
 
+//Error Handling
 app.use((req, res, next) => {
   const err = new Error('Sorry! This page does not exist!');
   err.status = 404;
