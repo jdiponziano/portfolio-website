@@ -22,6 +22,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
+  console.log(`Oops! This is embarrassing there appears to be a ${err.status} error. Please hang tight while we work it out!`);
   res.render('error', { error: err });
 });
 
