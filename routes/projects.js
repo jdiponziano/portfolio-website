@@ -3,19 +3,13 @@ const router = express.Router();
 const { data } = require('../data/portfolio-data.json');
 const { projects } = data;
 
-router.get('/projects', (req, res) => {
+router.get('/projects?', (req, res) => {
   const firstProject = projects[0].id;
   res.redirect(`/project/${firstProject}`);
 });
 
 router.get('/project/:id', (req, res) => {
   const { id } = req.params;
-
-  if (!id) {
-    const firstProject = projects[0].id;
-    return res.redirect(`/project/${firstProject}`)
-  }
-
   const { project_name } = projects[id];
   const { description } = projects[id];
   const { technologies } = projects[id];
